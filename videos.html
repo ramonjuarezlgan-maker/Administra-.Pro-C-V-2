@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Técnico Industrial Nuñoa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #002244;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            padding: 14px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #004488;
+        }
+        .slider {
+            width: 100%;
+            overflow: hidden;
+        }
+        .slides {
+            display: flex;
+            width: 150%;
+            animation: slide 12s infinite;
+        }
+        .slides img {
+            width: 20%;
+        }
+        @keyframes slide {
+            0% { margin-left: 0; }
+            33% { margin-left: -100%; }
+            66% { margin-left: -200%; }
+            100% { margin-left: 0; }
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .galeria img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #002244;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Colegio Técnico Industrial Nuñoa</h1>
+    <p>Formando Profesionales Técnicos con Excelencia</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#especialidades">Especialidades</a>
+    <a href="#galeria">Galería</a>
+    <a href="#videos">Videos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio" class="slider">
+    <div class="slides">
+        <img src="tecnico.jpg" alt="Institución">
+        <img src="tecnico 02.jpg" alt="Estudiantes">
+        <img src="tecnico 03.jpg" alt="Actividades">
+        <img src="tec7.jpg" alt="Actividades">
+        <img src="img1.jpg" alt="Actividades">
+        <img src="img3.jpg" alt="Actividades">
+<section id="historia">
+        
+    </div>
+</section>
+
+<section id="historia">
+    <h2>Historia del Colegio</h2>
+    <p>
+        El Colegio Técnico Industrial Nuñoa es una institución con tradición educativa,
+        dedicada a la formación de jóvenes en áreas técnicas e industriales, contribuyendo al desarrollo
+        del distrito de Nuñoa y la región de Melgar.
+    </p>
+</section>
+
+<section id="especialidades">
+    <h2>Especialidades Técnicas</h2>
+    <ul>
+        <li>Mecánica de Producción</li>
+        <li>Computación e Informática</li>
+        <li>Industria del Vestido</li>
+    </ul>
+</section>
+
+<section id="galeria">
+    <h2>Galería de Imágenes</h2>
+    <div class="galeria">
+        <img src="fb.jpg4" alt="Taller 1">
+        <img src="fb.jpg7" alt="Taller 2">
+        <img src="fb.jpg5" alt="Estudiantes">
+        <img src="fb.jpg3" alt="Laboratorios">
+        <img src="img2.jpg" alt="Eventos">
+        <img src="img3.jpg" alt="Ceremonias">
+    </div>
+</section>
+
+<section id="videos">
+    <h2>Videos Institucionales</h2>
+    <video width="100%" controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    <br><br>
+    <iframe width="1038" height="584" src="https://www.youtube.com/embed/4KdifHGsLKQ" title="Desfile 163 Aniversario Nuñoa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Nuñoa, Melgar - Puno</p>
+    <p><strong>Email:</strong> tecnicoindustrial@nunoa.edu.pe</p>
+    <p><strong>Teléfono:</strong> +51 987 654 321</p>
+
+    <p>Síguenos en nuestras redes:</p>
+    <ul>
+        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2025 Colegio Técnico Industrial Nuñoa — Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
